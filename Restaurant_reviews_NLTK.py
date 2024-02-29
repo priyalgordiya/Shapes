@@ -7,6 +7,7 @@ Created on Thu Feb 29 11:00:12 2024
 
 
 import pandas as pd
+import numpy as np
 #-------------------------------------------Loading the data
 data = pd.read_csv(r'C:\Users\priya\Downloads\Restaurant_Reviews.tsv', sep='\t', quoting=3)
 #-------------------------------------------Checking the data
